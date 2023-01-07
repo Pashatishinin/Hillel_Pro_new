@@ -4,6 +4,7 @@ from http.cookies import SimpleCookie
 
 
 
+
 def parse(query: str) -> dict:
     parser = urlparse(query)
 
